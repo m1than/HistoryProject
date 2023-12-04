@@ -1,0 +1,10 @@
+.Header {
+    grid-area: header;
+    display: grid;
+    background: darkkhaki;
+    transition: background-color 2s ease;
+}
+
+.Header:hover{
+    background-color: #f1da36;
+}

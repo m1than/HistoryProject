@@ -1,0 +1,5 @@
+.Body {
+    grid-area: body;
+    display: grid;
+    background: cyan;
+}
