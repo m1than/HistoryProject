@@ -1,13 +1,12 @@
 import './App.css';
-import ModelViewer from "./Components/ModelViewer/ModelViewer";
+import ModelRenders from './ModelRenders';
 
 function App() {
-    const modelSrc = '3Dmodels/Home.glb'
-  return (
-      <div className= "App">
-          <ModelViewer src={modelSrc} />
-      </div>
-  );
+    return (
+        <div>
+            <ModelRenders />
+        </div>
+    );
 }
 
 export default App;
