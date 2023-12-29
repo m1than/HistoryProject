@@ -1,6 +1,0 @@
-.LeftBlock {
-    grid-area: leftblock;
-    display: grid;
-    background: linear-gradient(to top, #fefcea, #f1da36);
-    border: 1px solid black ;
-}

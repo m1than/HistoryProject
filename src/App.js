@@ -1,10 +1,11 @@
 import './App.css';
-import ModelRenders from './ModelRenders';
+import MainSection from "./Components/MainSection/MainSection";
+import Attractions from "./Components/Attractions/Attractions";
 
 function App() {
     return (
         <div>
-            <ModelRenders />
+            <Attractions/>
         </div>
     );
 }

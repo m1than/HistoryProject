@@ -1,25 +1,22 @@
-.Header {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
+.SecondHeader {
+    padding: 115px 0 0 0;
     z-index: 50;
-    color: #111;
+    color: #000;
     font-family: Montserrat, serif;
-    font-size: 14px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 1.54px;
+    letter-spacing: 1.87px;
 }
 
-.Header__background{
+.header__background{
     background: url('/public/header_backdround.png') center/cover no-repeat;
 }
 
 .header__container{
     display: flex;
-    min-height: 113px;
+    min-height: 68px;
     align-items: center;
 }
 
@@ -29,16 +26,7 @@
 
 .menu{
     display: flex;
-    justify-content: flex-end;
-}
-
-.header__button{
-    display: flex;
-    justify-content: flex-end;
-    flex: 0 0 109px;
-}
-
-.header__logo{
+    justify-content: space-evenly;
 }
 
 .menu__list{
@@ -46,13 +34,9 @@
 }
 
 .menu__item{
-    margin: 0 48px 0 0;
+    margin: 0 54px 0 0;
 }
 
 .menu__link{
-
-}
-
-.button{
 
 }

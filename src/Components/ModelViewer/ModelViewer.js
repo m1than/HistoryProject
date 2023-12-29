@@ -35,7 +35,7 @@ const ModelViewer = ({ src }) => {
         };
     }, [src])
 
-    return <div ref={containerRef} />
+    return <canvas ref={containerRef} />;
 };
 
 export default ModelViewer
