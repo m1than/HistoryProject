@@ -5,7 +5,7 @@ import Attractions from "./Components/Attractions/Attractions";
 function App() {
     return (
         <div>
-            <Attractions/>
+            <MainSection/>
         </div>
     );
 }
