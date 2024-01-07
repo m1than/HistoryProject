@@ -21,3 +21,11 @@ code {
 * {
   font-family: "Montserrat";
 }
+.carousel .slide img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+.carousel .slide {
+  height: 400px; 
+}

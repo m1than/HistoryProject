@@ -18,7 +18,7 @@ const Header = () => {
     return (
         <header className={'h-[80px] p-[10px]'}>
             <div className={'flex flex-row justify-around items-center'}>
-                <div className={'cursor-pointer'}>
+                <div className={'cursor-pointer columns-4'}>
                     <img className={'min-w-[78px]'} src={process.env.PUBLIC_URL + "/Logo.svg"} alt="Logo"></img>
                 </div>
                 <nav>
