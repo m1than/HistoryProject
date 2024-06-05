@@ -11,10 +11,14 @@ function App() {
     switch (page) {
         case 'main':
             return <PageLayout><MainPage /> </PageLayout>
-        case 'attractions':
-            return <PageLayout><AttractionsPage /></PageLayout>
         case 'project':
             return <PageLayout><AboutPage /></PageLayout>
+        case 'team':
+            return <PageLayout><TeamPage /></PageLayout>
+        case 'sources':
+            return <PageLayout><SourcesPage /></PageLayout>
+        case 'results':
+            return <PageLayout><ResultsPage /></PageLayout>
         default:
             return <PageLayout><div>Undefined Page</div></PageLayout>
     }

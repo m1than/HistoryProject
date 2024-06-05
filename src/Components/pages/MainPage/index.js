@@ -4,10 +4,14 @@ const MainPage = () => {
     return (
         <div className={''}>
             <div className={''}>
-                <img className={'w-[100%] h-[100%] object-cover'} src={process.env.PUBLIC_URL + "/photo.svg"} alt={"Фото"} />
+                <img className={'w-[100%] h-[80%] object-cover'} src={process.env.PUBLIC_URL + "/photo.svg"} alt={"Фото"} />
             </div>
-            <div className={''}>
-                <img className={'w-[100%] h-[100%] object-cover'} src={process.env.PUBLIC_URL + "/map.png"} alt={"Карта"} />
+            <div className="grid place-items-center w-full h-full">
+                <img
+                    className="w-[90%] h-[90%] object-contain"
+                    src={process.env.PUBLIC_URL + "/map.png"}
+                    alt="Карта"
+                />
             </div>
             <div className={'px-[20px]'}>
                 <h2 className={'text-3xl py-[30px] font-bold'}>{t('main-page-h2')}</h2>

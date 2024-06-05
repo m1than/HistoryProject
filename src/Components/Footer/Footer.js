@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className={s.footer__politico}>
                         <a className={s.politico__link} href='https://itmo.ru/file/pages/79/personal_data_policy.pdf' target="_blank" rel="noopener noreferrer">{t('footer-politics')}</a>
                     </div>
-                    <div className={s.footer__item}>{t('footer-info') + String((new Date()).getFullYear())}</div>
+                    <div className={s.footer__item}>{t('footer-info') }</div>
                     <div className={s.footer__item}>{t('footer-itmo')}</div>
                 </div>
             </div>
